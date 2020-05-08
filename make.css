@@ -1,0 +1,31 @@
+#source{
+    float: left;
+}
+
+#order{
+    float: left;
+}
+
+#file_operation{
+    
+}
+
+#button_area{
+    float: left;
+}
+
+#source_area{
+    float: left;
+}
+
+#filenames{
+    width: 20em;
+}
+
+#upButton {
+    /* clear: left; */
+}
+
+.order_button{
+    /* float: left; */
+}
