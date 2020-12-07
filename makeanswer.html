@@ -10,8 +10,8 @@
     <body>
         <h1>Make Answer</h1>
         <div id="file_operation">
-                Upload <input id="uploadLink" type="file" accept=".QUIZ"/><br>
-                <a href="#" id="downloadLink">Download</a>
+                Upload <input id="uploadLink" type="file" accept=".QUIZ"/>
+                <a href="#" id="downloadLink">answer.js 生成</a>
         </div>
         <div id="button_area">
             <button id="upButton" class="order_button">↑</button>
@@ -30,7 +30,8 @@
 [QUESTION]
 問いの文章
 [INPUT]
-入力を1行に1つ
+入力を1行に1つ（コンマ区切りでない）
+文字列もクォートをつけない
 [OUTPUT]
 期待される出力
 [INPUT]
@@ -39,6 +40,8 @@
 別の出力例
 [TIMEOUT]
 制限時間（ミリ秒）
+
+TIMEOUTは省略可能
             </textarea>
         </div>
     </body>
