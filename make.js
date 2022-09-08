@@ -65,7 +65,7 @@ function convert_answer()
         else if(item_name == 'OUTPUT') output.push(buff.join('\\n'));
         else if(item_name == 'TIMEOUT') timeout = Number(buff.join(','));
         rtnv += "new Quiz('" + title + "',\n";
-        rtnv += "'" + question + "'\n";
+        rtnv += "'" + question + "',\n";
         rtnv += '[';
         for(var i of input) rtnv += "[" + i + "],";
         rtnv += '],'
